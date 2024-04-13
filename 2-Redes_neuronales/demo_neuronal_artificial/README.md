@@ -1,9 +1,8 @@
- Demo neurona artificial
+# Demo neurona artificial
 
-Aquesta demo està presa de [How to build a simple neural network in 9 lines of Python code](https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1). En el programa s'entrena una única neurona artificial que té tres connexions d'entrada i una de sortida. La neurona fa servir la funció d'activació sigmoide.
+Esta demo está tomada de [How to build a simple neural network in 9 lines of Python code](https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1). En el programa se entrena un única neurona artificial que tiene tres conexiones de entrada y una de salida. La neurona utiliza la función de activación sigmoide.
 
-La neurona s'entrena per resoldre un problema concret, que consisteix a, rebent les següents entrades oferir la sortida indicada (si us fixeu, és simplement el valor del dígit de més a a l'esquerra:
-
+La neurona se entrena para resolver un problema concreto, que consiste en, recibiendo las siguientes entradas ofrecer la salida indicada (si os fijáis, es símplemente el valor del dígito de más a la izquierda):
 
 [0, 0, 1] -> 0
 
@@ -13,11 +12,11 @@ La neurona s'entrena per resoldre un problema concret, que consisteix a, rebent 
 
 [0, 1, 1]] ->0
 
-I verifica quina és la sortida per a una nova situació, concretament [1, 0, 0].
+Y verifica cuál es la salida para una nueva situación, concretamente [1, 0, 0].
 
-Executa el programa i verifica si ofereix la solució correcta.
+Ejecuta el programa y verifica si ofrece la solución correcta.
 
-Fes modificacions al programa:
+Realiza modificaciones en el programa:
 
-- Verifica el valor de sortida per a una entrada diferent
-- Canvia el problema a resoldre
+- Verifica el valor de salida para una entrada diferente
+- Cambia el problema a resolver
