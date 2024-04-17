@@ -27,4 +27,22 @@ o
 
 (puedes cambiar env por cualquier nombre que quieras utilizar para el entorno virtual y también indicar una ruta concreta para el entorni virtual)
 
-Para activar el entorno virtual
+Para activar el entorno virtual:
+
+En Windows, ejecuta:
+
+`env\Scripts\activate`
+
+En Unix o MacOS, ejecuta:
+
+`source env/bin/activate`
+
+Ahora, si te fijas, en el Terminal aparece (env), indicando que estás utilizando este entorno.
+
+Ahora estarás utilizando una copia de Python que se guarda en el directorio env (o como lo hayas llamado). Puedes instalar cosas sin afectar al Python general instalado en el sistema. Este entorno lo puedes utilizar en cualquier momento, o si no lo necesitas más, borrarlo eliminando el directorio.
+
+Para instalar los prerequisitos en el entorno virtual puedes hacer:
+
+`python -m pip install -r requirements.txt`
+
+
